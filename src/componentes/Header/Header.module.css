@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F9DB79;
+}
+.img{
+    width: 90px;
+    height: 90px;
+}
+.link{
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+}
+
+@media (max-width: 970px){
+    .header{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,55 @@
+.sectionBanner{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/banner-sobre.png');
+    background-size: cover;
+    background-color: #F9DB79;
+    color:#fff;
+    text-shadow: 2px 2px 5px #474747;
+    font-size: 40px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.sectionText{
+    text-align: center;
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionText div{
+    max-width: 1024px; 
+}
+.sectionText div span{
+    font-weight: bold;
+    display:block; /* tranformei o span em bloco para funcionar o atributo margin */
+    margin: 50px 0 50px 0;
+}
+.sectionText div p{
+    margin: 50px;
+    
+}
+
+.sectionImages {
+    display: flex;
+}
+.sectionImages div{
+    width: 50%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width: 970px){
+    .sectionImages{
+        flex-direction: column;
+    }
+    .sectionImages div{
+        width: 100%;
+        gap: 0;
+    }
+}

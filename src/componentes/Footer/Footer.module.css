@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000000;
+    color:white;
+    height: 250px;
+}
+.img{
+    width: 90px;
+    height: 90px;
+}
+.containerInformacoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width:200px;
+    margin: 0 10px 0 10px
+}
+@media(max-width:970px){
+    .footer{
+        flex-direction: column;
+        height: auto;
+    }
+    .containerInformacoes{
+        flex-direction: column;
+
+    }
+    .card{
+        margin: 10px 0 10px 0;
+    }
+}
